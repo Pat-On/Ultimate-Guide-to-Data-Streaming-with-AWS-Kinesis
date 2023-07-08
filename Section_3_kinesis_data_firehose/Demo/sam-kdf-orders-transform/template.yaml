@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  sam-kdf-orders-transform
+
+  Sample SAM Template for sam-kdf-orders-transform
+
+Resources:
+  OrdersTransformFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: orders_transform/
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      Timeout: 90
+      MemorySize: 256
