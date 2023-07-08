@@ -21,3 +21,4 @@ https://docs.aws.amazon.com/streams/latest/dev/writing-with-agents.html
 
 `Kinesis KCL` - One of the methods of developing custom consumer applications that can process data from KDS data streams is to use the Kinesis Client Library (KCL).
 
+- apache spark as a 3rd party solutions
